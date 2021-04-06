@@ -8,3 +8,6 @@ Dark Sky has recently stopped providing new API keys for their platform. This py
 * bs4
 * geopy
 
+# :white_check_mark: To-Do
+* allow lookup of the temperature forcast with input of time
+* allow seeing the weekly weather forcast temperatures
