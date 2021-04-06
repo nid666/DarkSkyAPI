@@ -100,7 +100,8 @@ def getPressure(x, y):
     temp = str(soup.find("span", class_="num swip pressure__value"))
     return(temp[39:-7] + " mb")
 
-
-print(getVisiblity((*(getCoords("501 Sunridge Dr, Blacksburg, VA")))))
+#simple test function to make sure things aren't broken
+def test():
+    print(getVisiblity(getPressure(*(getCoords("144 Grand st, Jersey City, NJ")))))
 
 
